@@ -1,4 +1,4 @@
-import telebot;
+import telebot
 bot = telebot.TeleBot('1066033330:AAGRLKs4XXRxpY-_GTcls0kYnutiLuEQtrw')
 
 @bot.message_handler(commands=['start'])
