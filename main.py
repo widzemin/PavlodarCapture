@@ -9,4 +9,8 @@ def start_message(message):
 def start_message(message):
     bot.send_message(message.chat.id, 'пошел нахуй')
 
+@bot.message_handler(content_types=['text'])
+def get(message):
+    bot.send_message(message.chat.id, message.text)
+
 bot.polling()
