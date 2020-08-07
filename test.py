@@ -1,1 +1,1 @@
-print('Lol kek chebyrek')
+print('Lol kek')
